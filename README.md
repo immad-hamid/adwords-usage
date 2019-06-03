@@ -1,2 +1,1 @@
-# smart-brain-api
-This is NodeJS project for practicing purpose
+# Demo Node API For Client Side Usage
