@@ -1,0 +1,25 @@
+db: app_test
+
+CREATE TABLE clients (
+    id SERIAL primary key,
+    name VARCHAR(20),
+    enabled boolean
+);
+
+SELECT * FROM clients;
+
+INSERT INTO clients (name, enabled) VALUES('HP', true);
+INSERT INTO clients (name, enabled) VALUES('The Big Store', false);
+INSERT INTO clients (name, enabled) VALUES('Seven Eleven', true);
+INSERT INTO clients (name, enabled) VALUES('Imtiaz', false);
+
+# Ref
+SELECT * FROM clients;
+
+CREATE TABLE clients (id, name, enabled)
+
+INSERT INTO clients (name, enabled) VALUES('HP', true);
+
+ALTER TABLE clients ADD column columnType;
+
+UPDATE clients SET column = something WHERE id = something;
